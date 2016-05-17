@@ -18,6 +18,7 @@
 		95C6B46D1CEA621100F2C620 /* surved_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6B46C1CEA621100F2C620 /* surved_appUITests.m */; };
 		95C6B47F1CEA6DCE00F2C620 /* EndpointConfigService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6B47E1CEA6DCE00F2C620 /* EndpointConfigService.m */; };
 		95C6B4821CEADDC700F2C620 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6B4811CEADDC700F2C620 /* HttpService.m */; };
+		95C6B4851CEAE4E800F2C620 /* AuthenticationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6B4841CEAE4E800F2C620 /* AuthenticationService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +57,12 @@
 		95C6B4681CEA621100F2C620 /* surved-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "surved-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C6B46C1CEA621100F2C620 /* surved_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = surved_appUITests.m; sourceTree = "<group>"; };
 		95C6B46E1CEA621100F2C620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95C6B47D1CEA6DCE00F2C620 /* EndpointConfigService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndpointConfigService.h; sourceTree = "<group>"; };
-		95C6B47E1CEA6DCE00F2C620 /* EndpointConfigService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndpointConfigService.m; sourceTree = "<group>"; };
-		95C6B4801CEADDC700F2C620 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
-		95C6B4811CEADDC700F2C620 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
+		95C6B47D1CEA6DCE00F2C620 /* EndpointConfigService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndpointConfigService.h; path = common/EndpointConfigService.h; sourceTree = "<group>"; };
+		95C6B47E1CEA6DCE00F2C620 /* EndpointConfigService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndpointConfigService.m; path = common/EndpointConfigService.m; sourceTree = "<group>"; };
+		95C6B4801CEADDC700F2C620 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpService.h; path = common/HttpService.h; sourceTree = "<group>"; };
+		95C6B4811CEADDC700F2C620 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpService.m; path = common/HttpService.m; sourceTree = "<group>"; };
+		95C6B4831CEAE4E800F2C620 /* AuthenticationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthenticationService.h; path = common/AuthenticationService.h; sourceTree = "<group>"; };
+		95C6B4841CEAE4E800F2C620 /* AuthenticationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthenticationService.m; path = common/AuthenticationService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 				95C6B47E1CEA6DCE00F2C620 /* EndpointConfigService.m */,
 				95C6B4801CEADDC700F2C620 /* HttpService.h */,
 				95C6B4811CEADDC700F2C620 /* HttpService.m */,
+				95C6B4831CEAE4E800F2C620 /* AuthenticationService.h */,
+				95C6B4841CEAE4E800F2C620 /* AuthenticationService.m */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				95C6B4491CEA621100F2C620 /* AppDelegate.m in Sources */,
 				95C6B44C1CEA621100F2C620 /* FirstViewController.m in Sources */,
 				95C6B4461CEA621100F2C620 /* main.m in Sources */,
+				95C6B4851CEAE4E800F2C620 /* AuthenticationService.m in Sources */,
 				95C6B47F1CEA6DCE00F2C620 /* EndpointConfigService.m in Sources */,
 				95C6B4821CEADDC700F2C620 /* HttpService.m in Sources */,
 			);

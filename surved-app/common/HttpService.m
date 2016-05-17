@@ -35,6 +35,15 @@
     [dataTask resume];
 }
 
+//+ (void)postWithUrl:(NSURL *)url postData:(NSDictionary *)postData completion:(void (^)(NSData *, NSError *))completionHandler {
+//
+//
+//    NSMutableURLRequest *req = [NSMutableURLRequest requ
+//    
+//    
+//    
+//}
+
 
 
 
